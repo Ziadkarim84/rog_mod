@@ -152,6 +152,11 @@ nav {
 
 }
 
+.page2-cover-left {
+	position: relative;
+	right: -5vw;
+}
+
 .p1c1-box {
 	position: absolute;
 	left: 0;
@@ -159,7 +164,7 @@ nav {
 	margin-top: -5vw;
 }
 
-.p2c1 {
+.p2-cover {
 	background-image: url(../images/p2c1.png);
 }
 
@@ -183,12 +188,21 @@ nav {
 
 }
 
+.p2-cover-1-text {
+	border-left: .5vw solid #65250D;
+	s
+}
+
 .heading {
 	font-size: 3vw;
 	color: white;
 	line-height: 1;
 	margin-left: 2vw;
 	color: #BF3B18;
+}
+
+.p2-heading {
+	color: #65250D;
 }
 
 
@@ -213,6 +227,14 @@ nav {
 	text-decoration: none;
 	padding: .2vw 1vw;
 	color: black;
+}
+
+
+.p2-gratis a {
+
+	background-color: #65250D;
+	color: rgba(0, 0, 0, 1.5);
+
 }
 
 .button {
@@ -246,6 +268,10 @@ nav {
 	background-image: url(../images/p1c2.png);
 	background-size: 100% 100%;
 	min-height: 20vw;
+}
+
+.p2-slider {
+	background-image: url(../images/p2c2.png);
 }
 
 .sl-images {
@@ -336,6 +362,10 @@ nav {
 	margin-top: 1vw;
 }
 
+.p2c3-heading {
+	color: #65250D;
+}
+
 .p1c3-image {
 	width: 40vw;
 }
@@ -351,6 +381,10 @@ nav {
 	margin-top: 10vw;
 	text-align: center;
 	padding: 5vw 8vw;
+}
+
+.p2c4 {
+	background-image: url(../images/p2c4.png);
 }
 
 .arrow-curve {
@@ -380,7 +414,8 @@ nav {
 
 .right-left {
 	position: relative;
-	bottom: -45%;
+	bottom: -70%;
+	left: 8%;
 }
 
 .info-box {
@@ -404,6 +439,10 @@ nav {
 	padding: 0vw 1vw;
 	margin-top: -2vw;
 	background-color: #56ACDE;
+}
+
+.p2c4icon {
+	background-color: #4BC4CE;
 }
 
 .melhor {
@@ -436,6 +475,31 @@ nav {
 .qa {
 	padding: 5vw 20vw;
 	font-family: aller;
+}
+
+.qa-heading {
+	font-size: 2rem;
+	font-family: aller;
+	color: #243563;
+	text-align: center;
+}
+
+.qa button {
+	font-size: 1rem;
+	width: 100%;
+	height: 3.5rem;
+	padding: .5rem;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #56ACDE;
+	font-family: aller;
+	color: white;
+	margin-top: 1rem;
+	line-height: 1;
+}
+
+.p2-qa button {
+	background-color: #4BC4CE;
 }
 
 
@@ -475,6 +539,10 @@ nav {
 	font-weight: bold;
 }
 
+.p2c5 {
+	background-image: url(../images/p2c5.png);
+}
+
 .p1c5 a {
 	text-decoration: none;
 	color: white;
@@ -508,6 +576,12 @@ nav {
 	display: inline-block;
 	margin-top: 5vw;
 	width: 2vw;
+}
+
+
+button:hover,
+a:hover {
+	cursor: pointer;
 }
 
 /*************MEDIA QUERY*****************/
@@ -620,6 +694,10 @@ nav {
 
 		width: 3vw;
 	}
+
+	.qa-heading {
+		font-size: 1.8rem;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -711,6 +789,10 @@ nav {
 		font-size: .7rem;
 
 	}
+
+	.qa-heading {
+		font-size: 1.5rem;
+	}
 }
 
 
@@ -775,5 +857,9 @@ nav {
 		padding: 5vw 2vw;
 		font-size: .6rem;
 
+	}
+
+	.qa-heading {
+		font-size: 1rem;
 	}
 }
