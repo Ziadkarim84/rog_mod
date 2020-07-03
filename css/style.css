@@ -166,6 +166,7 @@ nav {
 
 .p2-cover {
 	background-image: url(../images/p2c1.png);
+	background-size: cover;
 }
 
 .c1-image {
@@ -214,15 +215,19 @@ nav {
 
 .gratis {
 	position: relative;
-	;
 	color: white;
-	margin-top: 5.9vw;
+	padding-top: 5.9vw;
+	border-left: .5vw solid #EC7C28;
+	margin-left: -.45vw;
+}
 
+.gratis-2 {
+	border-left: none;
 }
 
 .gratis a {
 	font-family: akcelera-bold;
-	background-color: #BF3B18;
+	background-color: #EC7C28;
 	font-size: 2vw;
 	text-decoration: none;
 	padding: .2vw 1vw;
@@ -230,18 +235,10 @@ nav {
 }
 
 
-.p2-gratis a {
 
-	background-color: #65250D;
-	color: rgba(0, 0, 0, 1.5);
-
-}
 
 .button {
 	font-family: akcelera-bold;
-	position: relative;
-	margin-bottom: -5vw;
-	margin-left: -.5vw;
 	font-size: 2vw;
 }
 
